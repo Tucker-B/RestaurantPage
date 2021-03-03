@@ -1,0 +1,60 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#Main_Sushi_Picture {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+p {
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+#nav-ul {
+    border-style: solid;
+    border-width: 1px; 
+    border-color: #d1d6de;
+    border-radius: 2px;
+    background-color: #b9c0c9;
+}
+
+li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #33ccff;
+}

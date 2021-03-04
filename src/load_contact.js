@@ -3,6 +3,15 @@ let populateContact = () => {
 
     let container = document.querySelector(`#content`);
 
+    let focused_li = document.querySelector(`#contact-li`);
+    focused_li.style.backgroundColor = "#33ccff";
+
+    let home_li = document.querySelector(`#home-li`);
+    home_li.style.backgroundColor = "transparent";
+
+    let menu_li = document.querySelector(`#menu-li`);
+    menu_li.style.backgroundColor = "transparent";
+
     let contact_container = document.createElement('div');
     contact_container.id = "contact-container-div";
 

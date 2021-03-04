@@ -4,6 +4,15 @@ let populateIndex = () => {
     // content <div> that elements will be appended to below via index_container
     let container = document.querySelector(`#content`);
 
+    let focused_li = document.querySelector(`#home-li`);
+    focused_li.style.backgroundColor = "#33ccff";
+
+    let menu_li = document.querySelector(`#menu-li`);
+    menu_li.style.backgroundColor = "transparent";
+
+    let contact_li = document.querySelector(`#contact-li`);
+    contact_li.style.backgroundColor = "transparent";
+
     // <div> that all elements below will be appended to for index page
     let index_container = document.createElement('div');
     index_container.id = "index-container-div";

@@ -14,6 +14,12 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
 #Main_Sushi_Picture {
     display: block;
     margin-top: 20px;

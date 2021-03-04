@@ -18,8 +18,8 @@ console.log("Running inside /src/ via index.js");
 
     home_li.addEventListener("click", () => {
         console.log("Inside home event listener");
-        let menu_container_div = document.getElementById(`#menu-container-div`); 
-        let contact_container_div = document.getElementById(`#contact-container-div`);
+        let menu_container_div = document.querySelector(`#menu-container-div`); 
+        let contact_container_div = document.querySelector(`#contact-container-div`);
 
         if (menu_container_div) {
             container.removeChild(menu_container_div);
@@ -32,8 +32,8 @@ console.log("Running inside /src/ via index.js");
     });
     menu_li.addEventListener("click", () => {
         console.log("Inside menu event listener");
-        let index_container_div = document.getElementById(`#index-container-div`); 
-        let contact_container_div = document.getElementById(`#contact-container-div`);
+        let index_container_div = document.querySelector(`#index-container-div`); 
+        let contact_container_div = document.querySelector(`#contact-container-div`);
 
         if (index_container_div) {
             container.removeChild(index_container_div);
@@ -46,8 +46,8 @@ console.log("Running inside /src/ via index.js");
     });
     contact_li.addEventListener("click", () => {
         console.log("Inside contact event listener");
-        let index_container_div = document.getElementById(`#index-container-div`); 
-        let menu_container_div = document.getElementById(`#menu-container-div`);
+        let index_container_div = document.querySelector(`#index-container-div`); 
+        let menu_container_div = document.querySelector(`#menu-container-div`);
 
         if (index_container_div) {
             container.removeChild(index_container_div);

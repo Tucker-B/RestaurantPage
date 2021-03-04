@@ -22,7 +22,6 @@ let populateMenu = () => {
 
     menu_container.appendChild(appetizers_menu_picture);
     menu_container.appendChild(sushi_menu_picture);
-    menu_container.style.visibility = "hidden";
 
     container.appendChild(menu_container);
 }

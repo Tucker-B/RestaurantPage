@@ -43,8 +43,6 @@ let populateContact = () => {
     contact_container.appendChild(hours_paragraph_weekdays);
     contact_container.appendChild(hours_paragraph_weekends);
 
-    contact_container.style.visibility = "hidden";
-
     container.appendChild(contact_container);
 }
 
